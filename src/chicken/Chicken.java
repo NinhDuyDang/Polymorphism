@@ -1,10 +1,10 @@
-package Chicken;
+package chicken;
 
-import Animal.animal;
+import animal.Animal;
 
 import java.util.Scanner;
 
-public class chicken extends animal {
+public class Chicken extends Animal {
     private int eggsPerDay;
 
     @Override
@@ -16,6 +16,7 @@ public class chicken extends animal {
         eggsPerDay = scanner.nextInt();
         sound = "Cluck";
     }
+
 
     @Override
     public void info() {

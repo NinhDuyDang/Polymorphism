@@ -1,9 +1,9 @@
-package Dog;
-import Animal.animal;
+package dog;
+import animal.Animal;
 
 import java.util.Scanner;
 
-public class dog extends  animal{
+public class Dog extends Animal {
     private String breed;
 
     @Override
